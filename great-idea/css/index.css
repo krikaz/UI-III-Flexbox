@@ -71,18 +71,18 @@ body {
 }
 
 
-.container1 {
+header {
 	display: flex;
 	justify-content: space-between;
 }
 
-.container1 nav {
+header nav {
 	display: flex;
 	flex-grow: 1;
 	justify-content: space-around;
 }
 
-.container1 nav a {
+header nav a {
 	color: grey;
 }
 
@@ -90,14 +90,14 @@ body {
 	/* justify-self: end; */
 }
 
-.container2 {
+.main {
 	display: flex;
 	justify-content: space-around;
 	margin: 5%;
 	
 }
 
-.container2-1 {
+.main-left {
 	display: flex;
 	flex-direction: column;
 	align-content: center;
@@ -115,14 +115,14 @@ body {
 	text-align: center;
 }
 
-.container2-1 button {
+.main-left button {
 	font-size: 1em;
 	border: 1px solid black;
 	width: 75%;
 	margin: 3%;
 }
 
-.container3 {
+.middle {
 	display: flex;
 }
 
@@ -133,11 +133,11 @@ body {
 	margin: 5%;
 }
 
-.container4 {
+.bottom {
 	display: flex;
 }
 
-.container3 p, .container4 p {
+.middle p, .bottom p {
 	margin: 5%;
 }
 
@@ -155,13 +155,12 @@ footer {
 	margin: 10%;
 }
 
+
+
 .services-header-img {
 	display: block;
 	margin: 3% auto 3% auto;
 	
-
-}
-.service{
 
 }
 
@@ -175,7 +174,8 @@ h1 {
 	justify-content: space-around;
 
 }
-.department {
+
+.container-department article {
 	display: flex;
 	flex-direction: column;
 	background-color: whitesmoke;
@@ -186,7 +186,7 @@ h1 {
 
 }
 
-.learn-more {
+.container-department button {
 	border: 1px solid black;
 	border-radius: 8%;
 	width: 25%;
@@ -195,7 +195,7 @@ h1 {
 	background-color: white;
 }
 
-.container5 {
+.container-facts {
 	display: flex;
 	justify-content: space-evenly;
 }
@@ -211,10 +211,10 @@ h1 {
 	margin: 2%, 0%;
 }
 
-ul {
+.facts ul {
 	list-style-type: square;
 }
 
-ul li {
+.facts ul li {
 	margin: 2%;
 }
